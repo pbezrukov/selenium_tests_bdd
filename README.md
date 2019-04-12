@@ -1,1 +1,1 @@
-# selenium_tests_bdd
+docker run -p 5000:5000 -it -v $(pwd)/selenium_ui_tests_bdd/results:/selenium_ui_tests_bdd/results seleneq
