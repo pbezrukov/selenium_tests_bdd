@@ -1,6 +1,5 @@
 from selenium_ui_tests_bdd.locators.search_page_locators import SearchPageLocators
 from selenium_ui_tests_bdd.pages.base_page import BasePage
-from selenium_ui_tests_bdd.locators.login_page_locators import LoginPageLocators
 
 
 class RegisterPage(BasePage):

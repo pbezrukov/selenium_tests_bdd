@@ -1,14 +1,15 @@
 # coding=utf-8
 """Tests with search pages feature tests."""
 
+import allure
 from pytest_bdd import (
     given,
     scenario,
     then,
     when,
 )
+
 from selenium_ui_tests_bdd.pages.search_page import SearchPage
-import allure
 
 
 @scenario('../features/search_item.feature', 'Test with search of items')

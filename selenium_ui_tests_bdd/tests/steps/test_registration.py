@@ -1,15 +1,16 @@
 # coding=utf-8
 """Tests with registration page feature tests."""
 
+import allure
 from pytest_bdd import (
     given,
     scenario,
     then,
     when,
 )
-from selenium_ui_tests_bdd.pages.register_page import RegisterPage
 from pytest_bdd import parsers
-import allure
+
+from selenium_ui_tests_bdd.pages.register_page import RegisterPage
 
 
 @scenario('../features/registration.feature', 'Check registration page')

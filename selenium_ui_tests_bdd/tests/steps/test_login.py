@@ -1,15 +1,10 @@
 # coding=utf-8
 """Login feature tests."""
 
-from pytest_bdd import (
-    given,
-    scenarios,
-    then,
-    when,
-    parsers
-)
-from selenium_ui_tests_bdd.pages.login_page import LoginPage
 import allure
+from pytest_bdd import given, scenarios, then, when, parsers
+
+from selenium_ui_tests_bdd.pages.login_page import LoginPage
 
 scenarios('../features/login.feature')
 
